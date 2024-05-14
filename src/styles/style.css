@@ -1,0 +1,67 @@
+/* Styles généraux pour le thème clair et sombre */
+.body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  .light {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Styles pour les cartes de projet */
+  .project-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: inherit;
+    color: inherit;
+    text-align: center;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+  
+  /* Styles pour les titres et textes */
+  h1, h2, h3, p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  /* Styles pour les boutons et liens */
+  button, a {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover, a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design pour petits écrans */
+  @media (max-width: 600px) {
+    .project-card {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    h1, h2, h3, p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
