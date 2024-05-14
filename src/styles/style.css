@@ -38,7 +38,7 @@
   }
   
   /* Styles pour les boutons et liens */
-  button, a {
+  button {
     padding: 10px 20px;
     margin: 10px;
     border: none;
@@ -49,19 +49,10 @@
     transition: background-color 0.3s;
   }
   
-  button:hover, a:hover {
-    background-color: #0056b3;
-  }
+
+
   
-  /* Responsive design pour petits écrans */
-  @media (max-width: 600px) {
-    .project-card {
-      margin: 10px;
-      padding: 10px;
-    }
-  
-    h1, h2, h3, p {
-      margin-left: 10px;
-      margin-right: 10px;
-    }
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
   }

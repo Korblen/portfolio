@@ -12,6 +12,7 @@ const ProjectDetail = () => {
       <h1>{project.title}</h1>
       <p>Date de sortie: {project.date}</p>
       <p>Description: {project.description}</p>
+      <a href={project.link}>Disponible ici</a>
     </div>
   ) : <div>Projet non trouvé</div>; // Ajout d'un cas de fallback
 };
